@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Contactanos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="estilos/misestilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div id="cabecera">
+         <div id="cabecera">
             <h1> CESELSA  </h1>
             <h2> Centro Especializado de Servicios Electricos S.A.</h2>
         </div>
@@ -24,9 +19,29 @@ and open the template in the editor.
                 <li>Contáctanos</li>
             </ul>
         </div>
-        <div id="cuerpo">
-            <img src="imagenes/img1.JPG" width="800" height="500" alt=""/>
-            <p> Ofrecemos servicios de instalación y mantenimiento de Aires Acondicionados, Planta eléctricas , Inversores, Transfers y todo tipo de equipos electromecánicos. Contamos con técnicos especialistas en la materia los cuales ofrecen asesorías especializadas.</p>
+        <div id="formulario">
+            <h1> Formulario de Contacto</h1>
+            <form>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre"/>
+                    </div>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" id="apellido"/>
+                    </div>
+                <div>
+                    <label for="correo">Digame su eMail: </label>
+                    <input type="email" id="correo"/>
+                    </div>
+                <div>
+                    <label for="mensaje">Explique el motivo de su mensaje </label>
+                    <textarea id="nombre" cols="50" rows="10"></textarea>
+                    </div>
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </div>
         <div id="pie">
             Calle 1ra #25 Jardines del Cerro. Santiago de los Caballeros Republica Dominicana.<br>
